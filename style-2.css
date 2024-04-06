@@ -1,0 +1,207 @@
+
+@font-face {
+    font-family: "Roboto";
+    src: url(/appointments/fonts/roboto/Roboto-Regular.ttf);
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+th{
+    text-transform: capitalize;
+}
+td{
+    padding: .5em 0;
+}
+.admin-appointments_article{
+    margin: 0;
+    width: 85vw;
+    padding: 0 2vw;
+}
+.add-appointment_button{
+    text-transform: capitalize;
+    margin-left: auto;
+}
+.appointments_article{color: #101010;font-family: Roboto; width: 50v2;width: 85vw;max-width: 1500px;margin: 0vh auto 0;/* border: 1px solid black; */min-height: 90vh;padding: 5vh 2vw 0;}
+.appointments_section{
+color: #101010;
+}
+.appointments_section .appointment-data_div:nth-child(odd){
+    background-color: #d9d9d9;
+}
+.appointments_section .appointment-data_div:nth-child(even){
+    border-bottom: 1px solid #f1f1f1;
+}
+.appointments-title_heading-1{
+    margin: 0;
+    text-transform: capitalize;
+}
+.appointments-heading-add_button{
+    margin-left: auto;
+    background: #222222;
+    border: 0;
+    padding: 1vh 1vw;
+    border-radius: 5px;
+    text-transform: capitalize;
+    font-weight: 800;
+    color: #fff;
+}
+.appointments-heading-logout_button{
+    margin-left: 2em;
+    background: #fff;
+    border: 1px solid #5e5e5e;
+    padding: 1vh 1vw;
+    border-radius: 5px;
+    text-transform: capitalize;
+    font-weight: 800;
+    color: #363636;
+}
+.appointments-heading_section{
+    display: flex;
+    margin-bottom: 5vh;
+    align-items: center;
+    padding: 3vh 2vw;
+    border-bottom: 1px solid #d9d7d7;
+}
+.appointments-heading-title_span{
+    text-transform: capitalize;
+    font-size: x-large;
+    font-weight: 700;
+}
+.appointment_list{list-style-type: none;margin: 0;padding: 10px;display: flex;justify-content: flex-start;align-items: center;}
+.appointment-data_list-item{display: inline;/* margin: 0 5vw 0 0; */text-transform: capitalize;width: 10vw;}
+.appointment-data_list-item:last-child{
+    margin-left: auto;
+    text-align: right;
+    font-size: small;
+    padding-right: 1vw;
+}
+.appointment-data_div{
+    padding: 1vh 1vw;
+}
+.appointments-table-heading_section{
+    color: #101010;
+}
+.appointment-table_div{
+    color: black;
+    padding: 0vh 1vw;
+}
+.appointment-table-heading_list{
+    margin: 0;
+    padding: 10px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.appointment-table-heading_list-item{
+    display: inline;
+    /* margin: 0 5vw 0 0; */
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: "Roboto";
+    width: 10vw;
+}
+.archived-appointments_heading{
+    font-weight: 600;
+    font-size: 25px;
+    margin: 2vh 0;
+}
+.client-name_div{display: inline;text-transform: capitalize;}
+.dashboard-container_div{
+    color: black;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.dashboard-menu_aside{
+    color: #fff;
+    padding: 5vh 2vw 0;
+    background-color: #222222;
+    font-family: "Roboto";
+    height: 100vh;
+    text-transform: capitalize;
+    padding: 0 25px;
+    border-right: 1px solid #dbdbdb;
+    width: 15vw;
+}
+.dashboard-menu_list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0vh 0 0 0;
+    width: 15vw;
+    max-width: 225px;
+}
+.dashboard-menu_list-item--text-logo{
+    border-bottom: 1px solid #fff;
+    font-size: x-large;
+    margin-bottom: 6vh;
+}
+.dashboard-menu_list-item--provider{
+    font-size: 1.25vw;
+    margin-bottom: 1.25vh;
+    padding: 5px 1vw;
+    width: 50%;
+}
+.login_form{
+    max-width: 350px;
+    margin: 25vh auto;
+}
+.login_input{
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.login-input_div{
+    width: 50vw;
+    max-width: 350px;
+}
+.logout_button{
+    text-transform: capitalize;
+    margin-left: 2vw;
+}
+.profile-pic_img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.user-first-name_heading{
+    text-transform: capitalize;
+}
+.--active{
+    background: #f1f1f1;
+    color: #040404;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.--update{
+    text-decoration: underline;
+}
+.--open, .--cancelled, .--postponed{
+    text-align: center;
+    padding: 2px;
+    border-radius: 10px;
+    width: 8vw;
+    margin-left: 25px;
+}
+.--open{
+    background: #ceffce;
+    border: 1px solid green;
+    color: green;
+    font-weight: 600;
+}
+.--cancelled{
+    background-color: #ffcbcb;
+    border: 1px solid red;
+    color: red;
+    font-weight: 600;
+}
+.--postponed{
+    background-color: #fde0aa;
+    border: 1px solid orange;
+    color: orange;
+    font-weight: 600;
+}
+.--status{
+    margin-left: 25px;
+}
